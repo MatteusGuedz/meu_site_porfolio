@@ -143,6 +143,15 @@
     }
 }
 
+@keyframes neonbordas2 {
+    from {
+        filter: drop-shadow(0 0 10px var(--cor-neon-borda3));
+    }
+    to{
+        filter: drop-shadow(0 0 10px var(--cor-neon-borda2));
+    }
+}
+
 .video-frame-borda-g {
     --cor-neon-borda:#8df000;
 }
@@ -154,11 +163,49 @@
 .video-frame-borda-p {
     --cor-neon-borda:#fb73fb;
 }
+.video-frame-borda-cllr {
+    --cor-neon-borda3:#fb73fb;
+    --cor-neon-borda2:#8df000;
+}
 
-.video-iframe{
-    /* border: 1px solid #8df000; */
-    animation: neonbordas 3s  alternate infinite ease-in-out;
+.video-back-pc{
+    /* width: 100vw; */
+    height: 100vh;
+  
+    float: right;
+  
+  
+    
+  } 
+
+  .img-logo{
+    animation: neonbordas2 0.1s  alternate infinite ease-in-out;
   }
+
+
+.video-iframe1{
+    /* border: 1px solid #8df000; */
+    animation: neonbordas 1s  alternate infinite ease-in-out;
+  }
+
+  .video-iframe2{
+    /* border: 1px solid #8df000; */
+    animation: neonbordas 1.5s  alternate infinite ease-in-out;
+  }
+  .video-iframe3{
+    /* border: 1px solid #8df000; */
+    animation: neonbordas 2.3s  alternate infinite ease-in-out;
+  }
+
+.img-fluid{
+    animation: neonbordas2 0.4s  alternate infinite ease-in-out;
+}
+.img-fluid2{
+    animation: neonbordas2 0.4s  alternate infinite ease-in-out;
+}
+
+
+
 
 @media (max-width:760px) {
  
@@ -583,15 +630,7 @@ B. Helpers
     
 }
 
-.video-back-pc{
-  /* width: 100vw; */
-  height: 100vh;
 
-  float: right;
-
-
-  
-} 
 
 
 .ts-background {
